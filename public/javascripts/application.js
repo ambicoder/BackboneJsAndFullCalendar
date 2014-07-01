@@ -3,7 +3,7 @@ $(function(){
 
     var Events = Backbone.Collection.extend({
         model: Event,
-        url: 'events'
+        url: 'events.php'//for non-REST interface
     }); 
  
     var EventsView = Backbone.View.extend({
